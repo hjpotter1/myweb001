@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="myweb001:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="930b54fe-c4c6-46c8-92a8-121b1c766261" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/META-INF/myweb001.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/controller/AdminServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/controller/BookServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/controller/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/controller/LogoutServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/entity/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/entity/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/entity/BookCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/entity/Borrow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/entity/Reader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/filter/AdminFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/filter/ReaderFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/repository/AdminRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/repository/BookRepositoy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/repository/BorrowRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/repository/ReaderRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/repository/impl/AdminRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/repository/impl/BookRepositoyImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/repository/impl/BorrowRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/repository/impl/ReaderRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/service/BookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/service/impl/BookServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/service/impl/LoginServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/classes/com/southwind/utils/JDBCTools.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/borrow.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/css/examine.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/css/myBorrow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/css/return.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/css/top.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/images/borrowBackRenew.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/images/borrowBackRenew_back.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/images/borrowBackRenew_r.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/images/borrow_if.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/images/copyright_t.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/images/error.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/images/error_b.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/images/item_out.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/images/item_over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/images/login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/images/main_booksort.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/images/main_booksort_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/images/main_booksort_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/images/main_readersort_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/images/more.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/images/navigation_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/images/navigation_bg_bottom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/images/reader_checkbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/images/search.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/images/subBG.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/images/top_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/js/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/return.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/myweb001_war_exploded/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/controller/AdminServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/controller/BookServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/controller/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/controller/LogoutServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/entity/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/entity/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/entity/BookCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/entity/Borrow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/entity/Reader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/filter/AdminFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/filter/ReaderFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/repository/AdminRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/repository/BookRepositoy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/repository/BorrowRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/repository/ReaderRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/repository/impl/AdminRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/repository/impl/BookRepositoyImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/repository/impl/BorrowRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/repository/impl/ReaderRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/service/BookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/service/impl/BookServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/service/impl/LoginServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/myweb001/com/southwind/utils/JDBCTools.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$" />
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1eoAUz19Qu8K4Y4UK1vFDZRlTXW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF/lib" />
+      <recent name="$PROJECT_DIR$/src/com/southwind/repository" />
+      <recent name="$PROJECT_DIR$/src/com/southwind/repository/impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/WEB-INF/lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.36">
+    <configuration name="JDBCTools" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.southwind.utils.JDBCTools" />
+      <module name="myweb001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.southwind.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.36" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.36" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/login.jsp" />
+      <deployment>
+        <artifact name="myweb001:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_36_myweb001" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50456" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="myweb001:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.JDBCTools" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.36" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="930b54fe-c4c6-46c8-92a8-121b1c766261" name="Default Changelist" comment="" />
+      <created>1594977591078</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594977591078</updated>
+      <workItem from="1594977593028" duration="190000" />
+      <workItem from="1594978050723" duration="8125000" />
+      <workItem from="1595346759300" duration="28616000" />
+      <workItem from="1595669026388" duration="151000" />
+      <workItem from="1595692693075" duration="19385000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="676" y="311" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1595123788582">
+      <screen x="0" y="23" width="1920" height="996" />
+    </state>
+    <state x="676" y="311" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/-1440.23.1440.877/0.23.1920.996@0.23.1920.996" timestamp="1595123788582" />
+    <state x="424" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595581887550">
+      <screen x="0" y="23" width="1920" height="1001" />
+    </state>
+    <state x="424" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.23.1440.877/0.23.1920.1001@0.23.1920.1001" timestamp="1595581887550" />
+    <state x="773" y="237" key="#com.intellij.ide.util.MemberChooser" timestamp="1595905255371">
+      <screen x="0" y="23" width="1920" height="997" />
+    </state>
+    <state x="773" y="238" key="#com.intellij.ide.util.MemberChooser/-1440.23.1440.877/0.23.1920.1001@0.23.1920.1001" timestamp="1595864788257" />
+    <state x="773" y="237" key="#com.intellij.ide.util.MemberChooser/-1440.23.1440.877/0.23.1920.996@0.23.1920.996" timestamp="1595346249507" />
+    <state x="773" y="237" key="#com.intellij.ide.util.MemberChooser/-1440.23.1440.877/0.23.1920.997@0.23.1920.997" timestamp="1595905255371" />
+    <state x="543" y="122" key="CommitChangelistDialog2" timestamp="1596030473583">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state x="543" y="122" key="CommitChangelistDialog2/-1440.23.1440.877/0.23.1920.1006@0.23.1920.1006" timestamp="1596030473583" />
+    <state width="521" height="466" key="DebuggerActiveHint" timestamp="1595905802135">
+      <screen x="0" y="23" width="1920" height="997" />
+    </state>
+    <state width="464" height="468" key="DebuggerActiveHint/-1440.23.1440.877/0.23.1920.1001@0.23.1920.1001" timestamp="1595859974530" />
+    <state width="521" height="466" key="DebuggerActiveHint/-1440.23.1440.877/0.23.1920.997@0.23.1920.997" timestamp="1595905802135" />
+    <state x="825" y="422" key="Github.ShareDialog" timestamp="1596015335527">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state x="825" y="422" key="Github.ShareDialog/-1440.23.1440.877/0.23.1920.1006@0.23.1920.1006" timestamp="1596015335527" />
+    <state x="763" y="233" key="Github.UntrackedFilesDialog" timestamp="1596015345135">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state x="763" y="233" key="Github.UntrackedFilesDialog/-1440.23.1440.877/0.23.1920.1006@0.23.1920.1006" timestamp="1596015345135" />
+    <state width="1294" height="268" key="GridCell.Tab.0.bottom" timestamp="1596013470728">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state width="1294" height="268" key="GridCell.Tab.0.bottom/-1440.23.1440.877/0.23.1920.1001@0.23.1920.1001" timestamp="1595905556252" />
+    <state width="1294" height="270" key="GridCell.Tab.0.bottom/-1440.23.1440.877/0.23.1920.1002@0.23.1920.1002" timestamp="1595669038997" />
+    <state width="1294" height="268" key="GridCell.Tab.0.bottom/-1440.23.1440.877/0.23.1920.1006@0.23.1920.1006" timestamp="1596013470728" />
+    <state width="1878" height="333" key="GridCell.Tab.0.bottom/-1440.23.1440.877/0.23.1920.996@0.23.1920.996" timestamp="1595346464352" />
+    <state width="1294" height="268" key="GridCell.Tab.0.bottom/-1440.23.1440.877/0.23.1920.997@0.23.1920.997" timestamp="1595932296687" />
+    <state width="1294" height="268" key="GridCell.Tab.0.center" timestamp="1596013470727">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state width="1294" height="268" key="GridCell.Tab.0.center/-1440.23.1440.877/0.23.1920.1001@0.23.1920.1001" timestamp="1595905556251" />
+    <state width="1294" height="270" key="GridCell.Tab.0.center/-1440.23.1440.877/0.23.1920.1002@0.23.1920.1002" timestamp="1595669038980" />
+    <state width="1294" height="268" key="GridCell.Tab.0.center/-1440.23.1440.877/0.23.1920.1006@0.23.1920.1006" timestamp="1596013470727" />
+    <state width="1878" height="333" key="GridCell.Tab.0.center/-1440.23.1440.877/0.23.1920.996@0.23.1920.996" timestamp="1595346464350" />
+    <state width="1294" height="268" key="GridCell.Tab.0.center/-1440.23.1440.877/0.23.1920.997@0.23.1920.997" timestamp="1595932296685" />
+    <state width="1294" height="268" key="GridCell.Tab.0.left" timestamp="1596013470726">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state width="1294" height="268" key="GridCell.Tab.0.left/-1440.23.1440.877/0.23.1920.1001@0.23.1920.1001" timestamp="1595905556250" />
+    <state width="1294" height="270" key="GridCell.Tab.0.left/-1440.23.1440.877/0.23.1920.1002@0.23.1920.1002" timestamp="1595669038979" />
+    <state width="1294" height="268" key="GridCell.Tab.0.left/-1440.23.1440.877/0.23.1920.1006@0.23.1920.1006" timestamp="1596013470726" />
+    <state width="1878" height="333" key="GridCell.Tab.0.left/-1440.23.1440.877/0.23.1920.996@0.23.1920.996" timestamp="1595346464350" />
+    <state width="1294" height="268" key="GridCell.Tab.0.left/-1440.23.1440.877/0.23.1920.997@0.23.1920.997" timestamp="1595932296684" />
+    <state width="1294" height="268" key="GridCell.Tab.0.right" timestamp="1596013470728">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state width="1294" height="268" key="GridCell.Tab.0.right/-1440.23.1440.877/0.23.1920.1001@0.23.1920.1001" timestamp="1595905556251" />
+    <state width="1294" height="270" key="GridCell.Tab.0.right/-1440.23.1440.877/0.23.1920.1002@0.23.1920.1002" timestamp="1595669038982" />
+    <state width="1294" height="268" key="GridCell.Tab.0.right/-1440.23.1440.877/0.23.1920.1006@0.23.1920.1006" timestamp="1596013470728" />
+    <state width="1878" height="333" key="GridCell.Tab.0.right/-1440.23.1440.877/0.23.1920.996@0.23.1920.996" timestamp="1595346464351" />
+    <state width="1294" height="268" key="GridCell.Tab.0.right/-1440.23.1440.877/0.23.1920.997@0.23.1920.997" timestamp="1595932296686" />
+    <state width="1294" height="268" key="GridCell.Tab.1.bottom" timestamp="1596013470731">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state width="1294" height="268" key="GridCell.Tab.1.bottom/-1440.23.1440.877/0.23.1920.1001@0.23.1920.1001" timestamp="1595905555993" />
+    <state width="1294" height="269" key="GridCell.Tab.1.bottom/-1440.23.1440.877/0.23.1920.1002@0.23.1920.1002" timestamp="1595669022786" />
+    <state width="1294" height="268" key="GridCell.Tab.1.bottom/-1440.23.1440.877/0.23.1920.1006@0.23.1920.1006" timestamp="1596013470731" />
+    <state width="1878" height="333" key="GridCell.Tab.1.bottom/-1440.23.1440.877/0.23.1920.996@0.23.1920.996" timestamp="1595346464217" />
+    <state width="1294" height="268" key="GridCell.Tab.1.bottom/-1440.23.1440.877/0.23.1920.997@0.23.1920.997" timestamp="1595932296689" />
+    <state width="1294" height="268" key="GridCell.Tab.1.center" timestamp="1596013470729">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state width="1294" height="268" key="GridCell.Tab.1.center/-1440.23.1440.877/0.23.1920.1001@0.23.1920.1001" timestamp="1595905555992" />
+    <state width="1294" height="269" key="GridCell.Tab.1.center/-1440.23.1440.877/0.23.1920.1002@0.23.1920.1002" timestamp="1595669022785" />
+    <state width="1294" height="268" key="GridCell.Tab.1.center/-1440.23.1440.877/0.23.1920.1006@0.23.1920.1006" timestamp="1596013470729" />
+    <state width="1878" height="333" key="GridCell.Tab.1.center/-1440.23.1440.877/0.23.1920.996@0.23.1920.996" timestamp="1595346464216" />
+    <state width="1294" height="268" key="GridCell.Tab.1.center/-1440.23.1440.877/0.23.1920.997@0.23.1920.997" timestamp="1595932296688" />
+    <state width="1294" height="268" key="GridCell.Tab.1.left" timestamp="1596013470729">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state width="1294" height="268" key="GridCell.Tab.1.left/-1440.23.1440.877/0.23.1920.1001@0.23.1920.1001" timestamp="1595905555991" />
+    <state width="1294" height="269" key="GridCell.Tab.1.left/-1440.23.1440.877/0.23.1920.1002@0.23.1920.1002" timestamp="1595669022785" />
+    <state width="1294" height="268" key="GridCell.Tab.1.left/-1440.23.1440.877/0.23.1920.1006@0.23.1920.1006" timestamp="1596013470729" />
+    <state width="1878" height="333" key="GridCell.Tab.1.left/-1440.23.1440.877/0.23.1920.996@0.23.1920.996" timestamp="1595346464216" />
+    <state width="1294" height="268" key="GridCell.Tab.1.left/-1440.23.1440.877/0.23.1920.997@0.23.1920.997" timestamp="1595932296688" />
+    <state width="1294" height="268" key="GridCell.Tab.1.right" timestamp="1596013470730">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state width="1294" height="268" key="GridCell.Tab.1.right/-1440.23.1440.877/0.23.1920.1001@0.23.1920.1001" timestamp="1595905555992" />
+    <state width="1294" height="269" key="GridCell.Tab.1.right/-1440.23.1440.877/0.23.1920.1002@0.23.1920.1002" timestamp="1595669022786" />
+    <state width="1294" height="268" key="GridCell.Tab.1.right/-1440.23.1440.877/0.23.1920.1006@0.23.1920.1006" timestamp="1596013470730" />
+    <state width="1878" height="333" key="GridCell.Tab.1.right/-1440.23.1440.877/0.23.1920.996@0.23.1920.996" timestamp="1595346464217" />
+    <state width="1294" height="268" key="GridCell.Tab.1.right/-1440.23.1440.877/0.23.1920.997@0.23.1920.997" timestamp="1595932296689" />
+    <state width="1294" height="268" key="GridCell.Tab.2.bottom" timestamp="1596013470734">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state width="1294" height="268" key="GridCell.Tab.2.bottom/-1440.23.1440.877/0.23.1920.1001@0.23.1920.1001" timestamp="1595905555996" />
+    <state width="1294" height="269" key="GridCell.Tab.2.bottom/-1440.23.1440.877/0.23.1920.1002@0.23.1920.1002" timestamp="1595669022786" />
+    <state width="1294" height="268" key="GridCell.Tab.2.bottom/-1440.23.1440.877/0.23.1920.1006@0.23.1920.1006" timestamp="1596013470734" />
+    <state width="1294" height="269" key="GridCell.Tab.2.bottom/-1440.23.1440.877/0.23.1920.996@0.23.1920.996" timestamp="1595338908098" />
+    <state width="1294" height="268" key="GridCell.Tab.2.bottom/-1440.23.1440.877/0.23.1920.997@0.23.1920.997" timestamp="1595932296398" />
+    <state width="1294" height="268" key="GridCell.Tab.2.center" timestamp="1596013470732">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state width="1294" height="268" key="GridCell.Tab.2.center/-1440.23.1440.877/0.23.1920.1001@0.23.1920.1001" timestamp="1595905555995" />
+    <state width="1294" height="269" key="GridCell.Tab.2.center/-1440.23.1440.877/0.23.1920.1002@0.23.1920.1002" timestamp="1595669022786" />
+    <state width="1294" height="268" key="GridCell.Tab.2.center/-1440.23.1440.877/0.23.1920.1006@0.23.1920.1006" timestamp="1596013470732" />
+    <state width="1294" height="269" key="GridCell.Tab.2.center/-1440.23.1440.877/0.23.1920.996@0.23.1920.996" timestamp="1595338908098" />
+    <state width="1294" height="268" key="GridCell.Tab.2.center/-1440.23.1440.877/0.23.1920.997@0.23.1920.997" timestamp="1595932296397" />
+    <state width="1294" height="268" key="GridCell.Tab.2.left" timestamp="1596013470732">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state width="1294" height="268" key="GridCell.Tab.2.left/-1440.23.1440.877/0.23.1920.1001@0.23.1920.1001" timestamp="1595905555995" />
+    <state width="1294" height="269" key="GridCell.Tab.2.left/-1440.23.1440.877/0.23.1920.1002@0.23.1920.1002" timestamp="1595669022786" />
+    <state width="1294" height="268" key="GridCell.Tab.2.left/-1440.23.1440.877/0.23.1920.1006@0.23.1920.1006" timestamp="1596013470732" />
+    <state width="1294" height="269" key="GridCell.Tab.2.left/-1440.23.1440.877/0.23.1920.996@0.23.1920.996" timestamp="1595338908098" />
+    <state width="1294" height="268" key="GridCell.Tab.2.left/-1440.23.1440.877/0.23.1920.997@0.23.1920.997" timestamp="1595932296397" />
+    <state width="1294" height="268" key="GridCell.Tab.2.right" timestamp="1596013470733">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state width="1294" height="268" key="GridCell.Tab.2.right/-1440.23.1440.877/0.23.1920.1001@0.23.1920.1001" timestamp="1595905555996" />
+    <state width="1294" height="269" key="GridCell.Tab.2.right/-1440.23.1440.877/0.23.1920.1002@0.23.1920.1002" timestamp="1595669022786" />
+    <state width="1294" height="268" key="GridCell.Tab.2.right/-1440.23.1440.877/0.23.1920.1006@0.23.1920.1006" timestamp="1596013470733" />
+    <state width="1294" height="269" key="GridCell.Tab.2.right/-1440.23.1440.877/0.23.1920.996@0.23.1920.996" timestamp="1595338908098" />
+    <state width="1294" height="268" key="GridCell.Tab.2.right/-1440.23.1440.877/0.23.1920.997@0.23.1920.997" timestamp="1595932296398" />
+    <state width="1294" height="268" key="GridCell.Tab.3.bottom" timestamp="1596013470736">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state width="1294" height="268" key="GridCell.Tab.3.bottom/-1440.23.1440.877/0.23.1920.1001@0.23.1920.1001" timestamp="1595905555994" />
+    <state width="1294" height="269" key="GridCell.Tab.3.bottom/-1440.23.1440.877/0.23.1920.1002@0.23.1920.1002" timestamp="1595669022787" />
+    <state width="1294" height="268" key="GridCell.Tab.3.bottom/-1440.23.1440.877/0.23.1920.1006@0.23.1920.1006" timestamp="1596013470736" />
+    <state width="1294" height="269" key="GridCell.Tab.3.bottom/-1440.23.1440.877/0.23.1920.996@0.23.1920.996" timestamp="1595338908099" />
+    <state width="1294" height="268" key="GridCell.Tab.3.bottom/-1440.23.1440.877/0.23.1920.997@0.23.1920.997" timestamp="1595932296397" />
+    <state width="1294" height="268" key="GridCell.Tab.3.center" timestamp="1596013470735">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state width="1294" height="268" key="GridCell.Tab.3.center/-1440.23.1440.877/0.23.1920.1001@0.23.1920.1001" timestamp="1595905555993" />
+    <state width="1294" height="269" key="GridCell.Tab.3.center/-1440.23.1440.877/0.23.1920.1002@0.23.1920.1002" timestamp="1595669022787" />
+    <state width="1294" height="268" key="GridCell.Tab.3.center/-1440.23.1440.877/0.23.1920.1006@0.23.1920.1006" timestamp="1596013470735" />
+    <state width="1294" height="269" key="GridCell.Tab.3.center/-1440.23.1440.877/0.23.1920.996@0.23.1920.996" timestamp="1595338908099" />
+    <state width="1294" height="268" key="GridCell.Tab.3.center/-1440.23.1440.877/0.23.1920.997@0.23.1920.997" timestamp="1595932296396" />
+    <state width="1294" height="268" key="GridCell.Tab.3.left" timestamp="1596013470734">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state width="1294" height="268" key="GridCell.Tab.3.left/-1440.23.1440.877/0.23.1920.1001@0.23.1920.1001" timestamp="1595905555993" />
+    <state width="1294" height="269" key="GridCell.Tab.3.left/-1440.23.1440.877/0.23.1920.1002@0.23.1920.1002" timestamp="1595669022787" />
+    <state width="1294" height="268" key="GridCell.Tab.3.left/-1440.23.1440.877/0.23.1920.1006@0.23.1920.1006" timestamp="1596013470734" />
+    <state width="1294" height="269" key="GridCell.Tab.3.left/-1440.23.1440.877/0.23.1920.996@0.23.1920.996" timestamp="1595338908098" />
+    <state width="1294" height="268" key="GridCell.Tab.3.left/-1440.23.1440.877/0.23.1920.997@0.23.1920.997" timestamp="1595932296395" />
+    <state width="1294" height="268" key="GridCell.Tab.3.right" timestamp="1596013470735">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state width="1294" height="268" key="GridCell.Tab.3.right/-1440.23.1440.877/0.23.1920.1001@0.23.1920.1001" timestamp="1595905555994" />
+    <state width="1294" height="269" key="GridCell.Tab.3.right/-1440.23.1440.877/0.23.1920.1002@0.23.1920.1002" timestamp="1595669022787" />
+    <state width="1294" height="268" key="GridCell.Tab.3.right/-1440.23.1440.877/0.23.1920.1006@0.23.1920.1006" timestamp="1596013470735" />
+    <state width="1294" height="269" key="GridCell.Tab.3.right/-1440.23.1440.877/0.23.1920.996@0.23.1920.996" timestamp="1595338908099" />
+    <state width="1294" height="268" key="GridCell.Tab.3.right/-1440.23.1440.877/0.23.1920.997@0.23.1920.997" timestamp="1595932296396" />
+    <state x="448" y="102" key="SettingsEditor" timestamp="1596015733062">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state x="448" y="102" key="SettingsEditor/-1440.23.1440.877/0.23.1920.1001@0.23.1920.1001" timestamp="1595581870870" />
+    <state x="448" y="102" key="SettingsEditor/-1440.23.1440.877/0.23.1920.1006@0.23.1920.1006" timestamp="1596015733062" />
+    <state x="298" y="137" key="SettingsEditor/-1440.23.1440.877/0.23.1920.996@0.23.1920.996" timestamp="1595341675674" />
+    <state x="448" y="102" key="SettingsEditor/-1440.23.1440.877/0.23.1920.997@0.23.1920.997" timestamp="1595425774472" />
+    <state x="100" y="123" width="1720" height="797" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596015771158">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state x="100" y="123" width="1720" height="797" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1440.23.1440.877/0.23.1920.1006@0.23.1920.1006" timestamp="1596015771158" />
+    <state x="509" y="264" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1595906144869">
+      <screen x="0" y="23" width="1920" height="997" />
+    </state>
+    <state x="509" y="264" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/-1440.23.1440.877/0.23.1920.997@0.23.1920.997" timestamp="1595906144869" />
+    <state x="691" y="195" width="683" height="486" key="find.popup" timestamp="1595923756593">
+      <screen x="0" y="23" width="1920" height="997" />
+    </state>
+    <state x="691" y="196" width="683" height="486" key="find.popup/-1440.23.1440.877/0.23.1920.1001@0.23.1920.1001" timestamp="1595862427703" />
+    <state x="691" y="195" width="683" height="486" key="find.popup/-1440.23.1440.877/0.23.1920.997@0.23.1920.997" timestamp="1595923756593" />
+    <state x="722" y="145" key="refactoring.ChangeSignatureDialog" timestamp="1595349010206">
+      <screen x="0" y="23" width="1920" height="997" />
+    </state>
+    <state x="722" y="145" key="refactoring.ChangeSignatureDialog/-1440.23.1440.877/0.23.1920.997@0.23.1920.997" timestamp="1595349010206" />
+    <state x="625" y="244" width="670" height="676" key="search.everywhere.popup" timestamp="1595605238361">
+      <screen x="0" y="23" width="1920" height="1001" />
+    </state>
+    <state x="625" y="244" width="670" height="676" key="search.everywhere.popup/-1440.23.1440.877/0.23.1920.1001@0.23.1920.1001" timestamp="1595605238361" />
+    <state x="625" y="243" key="search.everywhere.popup/-1440.23.1440.877/0.23.1920.996@0.23.1920.996" timestamp="1595340956443" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/southwind/repository/impl/ReaderRepositoryImpl.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/southwind/controller/LoginServlet.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/southwind/repository/impl/BorrowRepositoryImpl.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/southwind/service/impl/BookServiceImpl.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
